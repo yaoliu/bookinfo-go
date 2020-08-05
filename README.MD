@@ -1,0 +1,1 @@
+istio sample bookinfo golang
