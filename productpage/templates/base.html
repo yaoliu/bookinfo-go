@@ -1,0 +1,25 @@
+{{block "doc" .}}
+<!DOCTYPE html>
+<html lang="en">
+{{block "html" . }}
+<head>
+{{block "head" .}}
+    {{block "title".}}
+    <title>{{.title}}</title>
+    {{end}}
+{{block "metas" .}}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{end}}
+{{block "styles" . }}
+{{end}}
+{{end}}
+</head>
+<body>
+    {{block "content". }}
+    {{end}}
+    {{block "scripts" .}}
+    {{end}}
+</body>
+{{end}}
+</html>
+{{end}}
